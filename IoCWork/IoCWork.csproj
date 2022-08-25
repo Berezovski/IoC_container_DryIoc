@@ -22,7 +22,7 @@
     <ProjectReference Include="..\DryIoc\DI.DryIoc\DI.DryIoc.csproj" />
     <ProjectReference Include="..\MainService\MainService.csproj" />
     <ProjectReference Include="..\Modules\FirstServiceModule\FirstServiceModule.csproj" />
-    <ProjectReference Include="..\Modules\ServiceModule\SecondServiceModule.csproj" />
+    <ProjectReference Include="..\Modules\SecondServiceModule\SecondServiceModule.csproj" />
   </ItemGroup>
 
   <ItemGroup>
