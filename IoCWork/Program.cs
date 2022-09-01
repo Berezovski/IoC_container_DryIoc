@@ -1,7 +1,9 @@
 ﻿using DI.DryIoc;
 using DryIoc;
+using FirstService;
 using MainService;
 using Microsoft.Extensions.Configuration;
+using SecondService;
 using System;
 using System.IO;
 
@@ -18,6 +20,7 @@ namespace IoCWork
             cont.AddModules();
             var serv = cont.Resolve<IMainService>();
             serv.UseService();
+
             Console.WriteLine("End");
         }
 

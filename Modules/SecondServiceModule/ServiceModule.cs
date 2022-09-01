@@ -23,6 +23,7 @@ namespace SecondServiceModule
             //    container.RegisterInstance(settings);
             //}
 
+            //container.Register<IMainService, SecondServ>(Reuse.Singleton, serviceKey : "2");
             container.Register<IMainService, SecondServ>(Reuse.Singleton);
         }
     }

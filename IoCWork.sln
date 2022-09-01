@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstService", "Services\Fi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondService", "Services\SecondService\SecondService.csproj", "{05A8F117-CA3F-4615-930D-424C5A5B0BCB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainService", "MainService\MainService.csproj", "{9233D265-E2EC-497A-A9AC-8CB9F047BBA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceAbstraction", "MainService\ServiceAbstraction.csproj", "{9233D265-E2EC-497A-A9AC-8CB9F047BBA7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondServiceModule", "Modules\SecondServiceModule\SecondServiceModule.csproj", "{CD1A1784-1AD2-4C8C-B0C9-B6F593421BE3}"
 EndProject

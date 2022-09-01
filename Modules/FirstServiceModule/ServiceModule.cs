@@ -9,7 +9,7 @@ namespace FirstServiceModule
 {
     public class ServiceModule : IModule
     {
-        public string Name { get; set; } = nameof(ServiceModule);
+        public string Name { get; set; } = nameof(ServiceModule) ;
         public string AssemblyName { get; set; }
         public bool Enabled { get; set; }
 
@@ -23,6 +23,7 @@ namespace FirstServiceModule
             //    container.RegisterInstance(settings);
             //}
 
+            //container.Register<IMainService, FirstServ>(Reuse.Singleton, serviceKey : "1");
             container.Register<IMainService, FirstServ>(Reuse.Singleton);
         }
     }
